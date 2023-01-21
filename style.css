@@ -1,0 +1,54 @@
+
+/*<< Фон; bg >>*/
+body {
+    background-image: url(./images/bg_img.jpg);
+}
+/*< ========================================================== >*/
+
+/*<< Графік роботи ( Nav_ work_day_grafic ) >>*/
+#grafic_menu {
+    --bs-dropdown-link-hover-bg: none;
+    --bs-dropdown-link-active-color: #000;
+    --bs-dropdown-link-active-bg: white;
+}
+/*< ========================================================== >*/
+
+/*<< SVG Color >> */
+#svg_instagram {
+    color: rgb(238, 41, 149);
+}
+#svg_telegram {
+    color: blue;
+}
+#svg_facebook {
+    color: #0454cb;
+}
+/*< ========================================================== >*/
+
+/*<< Albom photo >>*/
+#card_cover_img {
+    background-size: cover;
+    border-color: black;
+}
+/*< ========================================================== >*/
+
+
+/* <<Стовбці ( Accordion )>> */
+/* Прозорість стовбців ( Ghost accordion ) */
+#accordionExample, #accordionExample2 {
+    --bs-accordion-bg: none;
+}
+/*<< Border color >>*/
+.accordion-item {
+    --bs-accordion-border-color: #ffffff;
+}
+/*<< h2 >> button color >>*/
+.accordion {
+    --bs-accordion-active-color: #0454cb;
+
+}
+/*<< Box show >>*/
+.accordion-button:focus {
+   --bs-accordion-btn-focus-box-shadow: none;
+}
+/*< ========================================================== >*/
